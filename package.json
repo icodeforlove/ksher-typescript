@@ -1,0 +1,43 @@
+{
+  "name": "ksher-typescript",
+  "version": "0.1.2",
+  "description": "Ksher TypeScript Library for http://api.ksher.net",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "directories": {
+    "src": "src",
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icodeforlove/ksher-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icodeforlove/ksher-typescript/issues"
+  },
+  "homepage": "https://github.com/icodeforlove/ksher-typescript#readme",
+  "dependencies": {
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^20.11.30",
+    "dotenv": "^17.2.3",
+    "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}

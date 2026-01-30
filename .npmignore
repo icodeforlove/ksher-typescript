@@ -1,0 +1,26 @@
+# Source and tests
+src/
+test/
+coverage/
+
+# Tooling and configs
+tsconfig.json
+jest.config.cjs
+
+# Logs and env
+*.log
+.env
+.env.*
+
+# Local deps/cache
+node_modules/
+.npm/
+
+# Editor/OS
+.DS_Store
+.idea/
+.vscode/
+
+ksher_pubkey.pem
+example.ts
+.cursorignore

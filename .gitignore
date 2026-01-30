@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Test output
+coverage/
+*.lcov
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env files
+.env
+.env.*
+
+# Tooling caches
+.npm/
+.eslintcache
+*.tsbuildinfo
+
+# Packaging
+*.tgz
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+test/_*
+example.ts
