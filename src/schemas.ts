@@ -108,7 +108,7 @@ export const gatewayOrderQueryResponseDataSchema = z.object({
   result: z.string(),
   total_fee: z.union([z.string(), z.number()]),
   appid: z.string(),
-  cash_fee: z.string(),
+  cash_fee: amountSchema,
   mch_order_no: z.string(),
   pay_mch_order_no: z.string(),
 });

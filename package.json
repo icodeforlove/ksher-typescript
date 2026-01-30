@@ -1,6 +1,6 @@
 {
   "name": "ksher-typescript",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "Ksher TypeScript Library for http://api.ksher.net",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
